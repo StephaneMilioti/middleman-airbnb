@@ -1,0 +1,9 @@
+- picture: "https://kitt.lewagon.com/placeholder/cities/shanghai"
+  name: Shanghai
+  address: China
+- picture: https://kitt.lewagon.com/placeholder/cities/berlin
+  name: Berlin
+  address: Germany
+- picture: https://kitt.lewagon.com/placeholder/cities/lyon
+  name: Lyon
+  address: France
