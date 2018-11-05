@@ -8,6 +8,10 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
+data.flats.each do |username, data|
+  proxy "/flats/#{username}.html", "/flats/show.html", locals: { owner: data }, ignore: true
+end
+
 configure :build do
   activate :minify_css
   activate :minify_javascript

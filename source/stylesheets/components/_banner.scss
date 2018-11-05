@@ -2,7 +2,7 @@
   color: white;
   text-align: center;
   height: calc(100vh - #{$navbar-height} - #{$footer-height});
-  background-size: cover !important;
+  background-size: cover ;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,7 +21,10 @@
   margin-bottom: 30px;
 }
 
-.banner-content {
+.banner-show {
+  height:50vh;
+  background-size: cover!important;
+  box-sizing: border-box;
 
 }
 .align-btn {
